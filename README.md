@@ -2,6 +2,9 @@
 
 This repository contains the training and evaluation code for BC-MLF. The method calibrates prediction-layer branches in a multimodal language model and is evaluated on MOSEI and SIMS.
 
+## :loudspeaker: News:
+Sep. 22, 2026: We submitted our paper BC-MLF to ICASSP'27 conference(main track)
+
 ## Setup
 
 Create the environment:
@@ -84,4 +87,7 @@ python experiments/regression/mult_base.py \
   title={Prediction-Layer Branch-Calibration for Multimodal Sentiment Analysis},
   author={Sun, Yulin and Xu, Kele and Dou, Yong},
 }
+
+## 🙏 Acknowledgement: 
+We used [DeepMLF]([https://github.com/microsoft/Pengi](https://github.com/efthymisgeo/deepmlf)) model related code.
 ```
