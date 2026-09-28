@@ -19,6 +19,14 @@ export BCMLF_MODEL_ROOT=/path/to/models
 export BCMLF_CHECKPOINT_ROOT=/path/to/checkpoints
 ```
 
+On PowerShell:
+
+```powershell
+$env:BCMLF_DATA_ROOT = "D:\path\to\data\mmsa"
+$env:BCMLF_MODEL_ROOT = "D:\path\to\models"
+$env:BCMLF_CHECKPOINT_ROOT = "D:\path\to\checkpoints"
+```
+
 The repository does not include datasets, language-model weights, or
 checkpoints. Place the pre-extracted MMSA feature files under
 `BCMLF_DATA_ROOT`, language models under `BCMLF_MODEL_ROOT` when using local
@@ -54,7 +62,6 @@ python experiments/regression/mult_base.py \
 ```
 
 For SIMS, use `MMSA/config/regression/bcmlf/sims/base_best_bchead_eps008.json`.
-For MOSI, use `MMSA/config/regression/bcmlf/mosi/best_ftcl.json`.
 
 ## Evaluation
 
