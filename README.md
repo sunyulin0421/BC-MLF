@@ -90,4 +90,4 @@ python experiments/regression/mult_base.py \
 ```
 
 ## 🙏 Acknowledgement: 
-We used [DeepMLF]([https://github.com/microsoft/Pengi](https://github.com/efthymisgeo/deepmlf)) model related code.
+We used [DeepMLF](https://github.com/efthymisgeo/deepmlf) model related code.
