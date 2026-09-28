@@ -2,6 +2,10 @@
 
 This repository contains the training and evaluation code for BC-MLF. The method calibrates prediction-layer branches in a multimodal language model and is evaluated on MOSEI and SIMS.
 
+
+![image](https://github.com/sunyulin0421/BC-MLF/blob/main/figs/fig1.png)
+
+
 ## :loudspeaker: News:
 Sep. 22, 2026: We submitted our paper BC-MLF to ICASSP'27 conference(main track)
 
