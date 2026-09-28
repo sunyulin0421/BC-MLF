@@ -57,8 +57,8 @@ def get_default_regression_config_file(model_name: str, dataset_name: str) -> Pa
         filename = "bienc.json"
     elif model_name == "msalm":
         filename = {
-            "mosei": "large_best_bchead_eps008.json",
-            "sims": "base_best_bchead_eps008.json",
+            "mosei": "large_best_bchead.json",
+            "sims": "base_best_bchead.json",
         }.get(dataset_name)
         if filename is None:
             raise ValueError(f"Unsupported BC-MLF dataset: {dataset_name}")
