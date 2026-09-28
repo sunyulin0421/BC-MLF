@@ -51,12 +51,12 @@ Train BC-MLF with the supplied best configuration:
 ```bash
 python experiments/regression/mult_base.py \
   -m msalm -d mosei -g 0 \
-  -c MMSA/config/regression/bcmlf/mosei/large_best_bchead_eps008.json \
+  -c MMSA/config/regression/bcmlf/mosei/large_best_bchead.json \
   --exp-name bcmlf-mosei \
   -s 1990 -s 1991
 ```
 
-For SIMS, use `MMSA/config/regression/bcmlf/sims/base_best_bchead_eps008.json`.
+For SIMS, use `MMSA/config/regression/bcmlf/sims/base_best_bchead.json`.
 
 ## Evaluation
 
@@ -65,7 +65,7 @@ The training entry point performs normal test evaluation after training. To eval
 ```bash
 python experiments/regression/mult_base.py \
   -m msalm -d mosei \
-  -c MMSA/config/regression/bcmlf/mosei/large_best_bchead_eps008.json \
+  -c MMSA/config/regression/bcmlf/mosei/large_best_bchead.json \
   --eval_mode eval \
   --model_load_path "$BCMLF_CHECKPOINT_ROOT/your_model.pth" \
   -s 1990
