@@ -87,7 +87,7 @@ python experiments/regression/mult_base.py \
   title={Prediction-Layer Branch-Calibration for Multimodal Sentiment Analysis},
   author={Sun, Yulin and Xu, Kele and Dou, Yong},
 }
+```
 
 ## 🙏 Acknowledgement: 
 We used [DeepMLF]([https://github.com/microsoft/Pengi](https://github.com/efthymisgeo/deepmlf)) model related code.
-```
