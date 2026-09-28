@@ -1,6 +1,6 @@
 # BC-MLF: Prediction-Layer Branch-Calibration for Multimodal Sentiment Analysis
 
-This repository contains the training and evaluation code for BC-MLF. The method calibrates prediction-layer branches in a multimodal language model and is evaluated on MOSI, MOSEI, and SIMS.
+This repository contains the training and evaluation code for BC-MLF. The method calibrates prediction-layer branches in a multimodal language model and is evaluated on MOSEI, and SIMS.
 
 ## Setup
 
